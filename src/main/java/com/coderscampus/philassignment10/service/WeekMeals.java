@@ -13,10 +13,8 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import com.coderscampus.philassignment10.config.ApplicationConfiguration;
-import com.coderscampus.philassignment10.model.Day;
 import com.coderscampus.philassignment10.model.Meals;
 import com.coderscampus.philassignment10.model.WeekResponse;
-import com.coderscampus.philassignment10.model.Week;
 
 @Service
 public class WeekMeals {
