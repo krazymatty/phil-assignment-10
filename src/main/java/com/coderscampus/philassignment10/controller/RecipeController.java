@@ -17,6 +17,7 @@ public class RecipeController {
 	private WeekMeals weekMeals;
 	@Autowired
 	private DayMeals dayMeals;
+	
 	@GetMapping("/mealplanner/week")
 	public ResponseEntity<WeekResponse> getWeekMeals(
 			@RequestParam(value = "timeFrame", defaultValue = "week", required = false) String timeFrame,
